@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  padding: 20px;
+  margin-right: 20px;
+}
+button {
+  padding: 12px 20px;
+  margin-right: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:last-child {
+  margin-right: 0px;
+}
+
+button:hover {
+  background-color: lightblue;
+  border: none;
+}
+
+.button-list {
+  margin-top: 36px;
+}
+hr {
+  margin: 24px 0;
+}
+
+.destination-box {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 250px;
+  padding: 4px 12px;
+  margin: 20px auto;
+}
+
+.destination-name {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
