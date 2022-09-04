@@ -4,15 +4,18 @@ import "./styles.css";
 let travelDB = {
   Beaches: [
     { name: "Goa", rating: "4/5" },
-    { name: "Andaman and Nicobar Island", rating: "5/5" }
+    { name: "Andaman and Nicobar Island", rating: "5/5" },
+    { name: "Mumbai", rating: "3.5/5" }
   ],
   Mountains: [
     { name: "Kashmir", rating: "4.5/5" },
-    { name: "Switzerland", rating: "5/5" }
+    { name: "Switzerland", rating: "5/5" },
+    { name: "Himachal Pradesh", rating: "5/5" }
   ],
   Party: [
     { name: "Singapore", rating: "5/5" },
-    { name: "Bali", rating: "4/5" }
+    { name: "Bali", rating: "4/5" },
+    { name: "Vegas", rating: "4.5/5" }
   ]
 };
 
