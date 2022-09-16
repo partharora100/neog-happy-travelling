@@ -42,11 +42,18 @@ hr {
   border: 1px solid black;
   border-radius: 10px;
   width: 250px;
-  padding: 4px 12px;
+  padding: 8px 12px;
   margin: 20px auto;
 }
 
 .destination-name {
   font-size: 20px;
   margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.destination-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
 }
