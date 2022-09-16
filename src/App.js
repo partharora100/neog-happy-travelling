@@ -53,6 +53,7 @@ export default function App() {
           {travelDBValues.map(function (destination) {
             return (
               <div className="destination-box">
+                <img alt="" />
                 <li key={destination.name}>
                   <div className="destination-name">{destination.name}</div>
                   <div className="destination-rating">{destination.rating}</div>
